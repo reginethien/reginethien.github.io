@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generative AI Interactive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Let's Learn! What you need to know about Generative AI</h1>
+        <p>What's Gen AI and what's it used for? Learn about it through this site!</p>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>First of all, what is AI?</h2>
+            <p>AI stands for Artificial Intelligence. It is the science of teaching machines to mimic intelligent human behaviors. AI systems are taught using computer programming to learn, reason, problem solve, and create!</p>
+            <h2>Hm....So then what is GENERATIVE AI?</h2>
+            <p>Gen AI is a leap forward from traditional AI, which was focused on understanding and processing information. Gen AI are computer programs that use artificial intelligence to create new content. Gen AI can also find existing information on the web, but its main use is to create content. Some examples of Gen AI platforms are ChatGPT, Google AI Overviews and Midjourney.</p>
+            <button id="NextPageIntro">Start this course!</button>
+        </section>
+        
+        <section id="intro2" style="display: none;">
+            <h2>Before we begin...</h2>
+            <p>Hi! I'm Genny, and I'll be taking you through this Gen AI crash course! Follow along the quick lessons, and answer the quizzes! Are you ready?</p>
+            <div class="images">
+                <img src="Blackboard.jpg" alt="Blackboard illustration" width="150">
+                <img src="GennyMascot.jpg" alt="Mascot" width="150">
+            </div>
+            <button id="NextPageQuiz">Let's Go!</button>
+        </section>
+
+        <section id="quiz1" style="display: none;">
+            <h2>Quiz #1 - The Basics of Gen AI</h2>
+            <div id="quizContent" class="quiz-layout">
+                <div id="optionsWrapper">
+                    <p id="questionText"></p>
+                    <div id="optionsContainer"></div>
+                </div>
+                <img id="questionImage" src="1.jpg" alt="Quiz Image" width="225">
+                <img id="mascotqn1" src="GennyMascotYellow.jpg" alt="Mascot" width="135">
+            </div>
+            <button id="nextQuestion" style="display: none;">Next Question</button>
+            <p id="feedback" style="margin-top: 10px;"></p>
+            <button id="nextPage" style="display: none; margin-top: 20px;">Next</button>
+        </section>
+        
+
+        <section id="lesson1" style="display: none;">
+            <h3>Lesson 1: What can Gen AI be used for?</h3>
+            <p>Here are some examples!</p>
+            <div class="images">
+                <img src="imagegeneration.jpg" alt="Image Generation" width="225">
+                <img src="musicgeneration.jpg" alt="Music Generation" width="225">
+                <img src="textgeneration.jpg" alt="Text Generation" width="225">
+                <img src="endlesspossibilties.jpg" alt="Endless Possibilities" width="225">
+            <p>The most common uses of Gen AI are music generation, text generation, and image generation. But Gen AI also has the ability to aid in content creation and ideation, provide support in answering general queries, enhance digital learning, generating and optimizing codes, data analysis, and so much more!</p>
+            </div>
+            <button id="startquiz1">Start Quiz</button>
+        </section>
+
+        <section id="lesson2" style="display: none;">
+            <h4>Lesson 2: Using Gen AI tools (ChatGpt)</h4>
+            <p>Now that you are familiar with the basics of AI and Gen AI, let me teach you how to start using it! ChatGPT is one of the most commonly used Gen AI softwares with a user-friendly interface, let's get you started!</p>
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <img src="src1.png" alt="src1" style="width: 200px; height: 160px;">
+                <img src="src2.png" alt="src2" style="width: 200px; height: 160px;">
+                <p style="margin: 0;"><strong>i</strong> - Application may greet user at the start of the conversation</p>
+                <p style="margin: 0;"><strong>ii</strong> - This area is where users can read the application’s response to user’s prompt</p>
+                <p style="margin: 0;"><strong>iii</strong> - Users type in their prompts or questions to ChatGPT</p>
+                <p style="margin: 0;"><strong>iv</strong> - You can also opt for a voice input of your prompt through the voice record button or input images through here</p>
+            </div>
+            <button id="lesson2continue"style="background-color: palevioletred; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px; margin-top: 20px;">Next</button>
+        </section>
+
+        <section id="lesson2p2" style="display: none;">
+            <h4>Lesson 2: Using Gen AI tools (ChatGpt)</h4>
+            <p>Insert your prompt here. A good prompt should consist of 5 parts: Persona, Task, Audience, Context and Format. Here’s an example:</p>
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <img src="src3.png" alt="src1" style="width: 280px; height: 200px;">
+                <p style="margin: 0;"><strong>Persona</strong> - An expert on healthy aging focusing on physical and mental wellbeing</p>
+                <p style="margin: 0;"><strong>Task</strong> - Give activity ideas that can be done at a park</p>
+                <p style="margin: 0;"><strong>Audience</strong> - I am 65 years old</p>
+                <p style="margin: 0;"><strong>Context</strong> - I have a knee injury</p>
+                <p style="margin: 0;"><strong>Format</strong> - Show photos or videos</p>
+            </div>
+            <div style="margin-top: 20px; display: flex; flex-direction: column; align-items: flex-start;">
+                <label for="userPrompt" style="margin-bottom: 10px; font-weight: bold;">Avoid weak prompts: "Suggest some exercises that I can do at a nearby park"</label>
+            </div>
+            <button id="lesson2p2continue"style="background-color: palevioletred; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px; margin-top: -10px;">Start Quiz</button>
+        </section>
+        
+        <section id="quiz2" style="display: none;">
+            <h2>Quiz #2 - Using Gen AI tools (ChatGPT)</h2>
+            <div id="quiz2Content" class="quiz-layout">
+                <div id="options2Wrapper">
+                    <p id="quiz2questionText"></p>
+                    <div id="quiz2optionsContainer"></div> 
+                </div>
+                <div class="quiz-images">
+                    <img id="questionImage3" src="3.jpg" alt="Quiz Image" width="225"> 
+                    <img id="mascotqn3" src="GennyMascotYellow.jpg" alt="Mascot" width="135"> 
+                </div>
+            </div>
+            <button id="quiz2nextQuestion" style="display: none;">Next Question</button>
+            <p id="quiz2feedback" style="margin-top: 10px;"></p>
+            <button id="nextPage" style="display: none; margin-top: 20px;">Next</button>
+        </section>
+        
+
+        <section id="lesson3" style="display: none;">
+            <h6 style="font-size: 24px; margin-top: -10px">Lesson 3: The Good...and The Bad</h6>
+            <p style="margin-top: -30px;">While Gen AI offers numerous benefits, it also presents several risks and challenges.</p>
+            <div style="display: flex; justify-content: center; gap: 20px;">
+              
+                <div style="text-align: center;">
+                    <img src="gb1.jpg" alt="gb1" style="width: 200px; height: 160px;">
+                    <p style="margin-top: 10px; color: green"><strong>The Good</strong> - Gen AI provides benefits such as time-saving capabilities for repetitive tasks or research, and digital assistance.</p>
+                </div>
+        
+               
+                <div style="text-align: center;">
+                    <img src="gb2.jpg" alt="gb2" style="width: 200px; height: 160px;">
+                    <p style="margin-top: 10px; color: red"><strong>The Bad</strong> - If not careful, using Gen AI may not keep your personal information safe, could cause copyright issues, or spread misinformation.</p>
+                </div>
+            </div>
+            <button id="lesson3continue" style="background-color: palevioletred; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px; margin-top: -30px;">Next</button>
+        </section>
+
+        <section id="lesson3p2" style="display: none;">
+            <h6 style="font-size: 24px; margin-top: -10px">Lesson 3: The Good...and The Bad</h6>
+            <p style="margin-top: -30px;">Here are some risks that come with the misuse of Gen AI</p>
+            <div style="display: flex; justify-content: center; gap: 20px;">
+
+                <div style="text-align: center;">
+                    <img src="r1.jpg" alt="r1" style="width: 200px; height: 160px;">
+                    <p style="margin-top: 10px; color: red"><strong>Video Deepfake</strong> - Realistic videos made by face swapping, used for entertainment or spreading misinformation</p>
+                </div>
+        
+                <div style="text-align: center;">
+                    <img src="r2.jpg" alt="r2" style="width: 200px; height: 160px;">
+                    <p style="margin-top: 10px; color: red"><strong>Audio Deepfake</strong> - Voice recordings created to mimic someone’s voice to deceive</p>
+                </div>
+
+                <div style="text-align: center;">
+                    <img src="r3.jpg" alt="r3" style="width: 200px; height: 160px;">
+                    <p style="margin-top: 10px; color: red"><strong>Text Plagiarism</strong> - Creating text to imitate someone’s writing style, but posing it as your own</p>
+                </div>
+            </div>
+            <button id="lesson3next3" style="background-color: palevioletred; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px; margin-top: -30px;">Next</button>
+        </section>
+
+        <section id="lesson3p3" style="display: none;">
+            <h6 style="font-size: 24px;">Lesson 3: The Good...and The Bad</h6>
+            <p style="margin-top: -30px;">How do we <strong>prevent</strong> AI misuse?</p>
+            <p>We should define the purpose, scope, and limits of your AI project; follow AI ethical principles for its design and development. We should not forget to conduct risk assessments for our AI project, and implement controls to mitigate our AI misuse!</p>
+            <img src="GennyMascotYellow.jpg" alt="GennyMascotYellow" width="100">
+            <p>Let’s start educating ourselves and others about proper Gen AI usage</p>
+            <button id="startquiz3" style="background-color: palevioletred; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px; margin-top: -20px;">Start Quiz</button>
+        </section>
+
+        <section id="quiz3" style="display: none;">
+            <h6 style="font-size: 24px; margin-bottom: 10px">Quiz #3 - The Good...and The Bad</h6>
+            <p id="questionText" style="margin-top: 0px;"></p> 
+            <div id="quiz3Content" class="quiz-layout">
+                <div id="options3Wrapper">
+                    <p id="quiz3questionText"></p> 
+                    <div id="quiz3optionsContainer"></div> 
+                </div>
+                <div class="quiz-images">
+                    <img id="questionImage5" src="6.jpg" alt="Quiz Image" width="225"> 
+                    <img id="mascotqn5" src="GennyMascotYellow.jpg" alt="Mascot" width="135"> 
+                </div>
+            </div>
+            <button id="quiz3nextQuestion" style="margin-top: 30px; display: none;">
+                Next Question
+            </button>
+            <p id="quiz3feedback" style="margin-top: 10px;"></p>
+        </section>
+        
+        <section id="ending" style="display: none;">
+            <h6 style="font-size: 24px; margin-bottom: 10px">Well done! You've completed "What you need to know about Generative AI"</h6>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
